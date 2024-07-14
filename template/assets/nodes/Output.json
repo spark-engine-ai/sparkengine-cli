@@ -1,0 +1,13 @@
+{
+  "id": "node_1720986388350_0.4595687237302626",
+  "type": "outputPass",
+  "templateName": "",
+  "data": {
+    "title": "Output",
+    "props": []
+  },
+  "position": {
+    "x": -40,
+    "y": -200
+  }
+}

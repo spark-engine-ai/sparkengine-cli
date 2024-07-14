@@ -1,0 +1,26 @@
+{
+  "id": "4",
+  "type": "template",
+  "templateName": "agent",
+  "data": {
+    "title": "Agent",
+    "props": [
+      {
+        "label": "Instructions",
+        "value": "Hey there! This is where you can instruct the agent of what to do based on the input that flows into it."
+      },
+      {
+        "label": "Model",
+        "value": "google/gemma-7b-it"
+      },
+      {
+        "label": "Character",
+        "value": "9a4f5e22-aacd-435e-b37a-63b5a09bb35e"
+      }
+    ]
+  },
+  "position": {
+    "x": -560,
+    "y": -260
+  }
+}
