@@ -14,7 +14,8 @@
     "commander": "^12.1.0",
     "fs-extra": "^11.2.0",
     "inquirer": "^9.1.1",
-    "glob": "^10.1.0"
+    "glob": "^10.1.0",
+    "node-fetch": "^2.6.7"
   },
   "bin": {
     "sparkengine": "./index.js"
