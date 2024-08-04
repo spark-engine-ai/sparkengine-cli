@@ -43,6 +43,46 @@ npx sparkengine configure-all-spk
 
 This command will search for all `.spk` files on your computer and configure them to use the favicon.
 
+## Managing Your Spark Engine API Key
+
+### Add Your API Key
+
+To add your Spark Engine API key:
+
+```bash
+npx sparkengine key add "<your-api-key>"
+```
+
+Replace `<your-api-key>` with your actual API key.
+
+### Replace Your API Key
+
+To replace your Spark Engine API key:
+
+```bash
+npx sparkengine key replace "<your-new-api-key>"
+```
+
+Replace `<your-new-api-key>` with your new API key.
+
+### Remove Your API Key
+
+To remove your Spark Engine API key:
+
+```bash
+npx sparkengine key remove
+```
+
+## Sending a Prompt to a Spark Engine Project
+
+To send a prompt to a Spark Engine project:
+
+```bash
+npx sparkengine run <projectId>
+```
+
+Replace `<projectId>` with the ID of your project. You will then be prompted to enter your text prompt.
+
 ## License
 
 This project is licensed under the ISC License.
